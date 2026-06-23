@@ -1,0 +1,58 @@
+{
+  "service": "Benchmark.Api",
+  "featureName": "GetTestData",
+  "area": "Tests",
+  "mode": "CreateNewController",
+
+  "controller": {
+    "name": "TestController",
+    "namespace": "Benchmark.Api.Controllers",
+    "routePrefix": "api/test"
+  },
+
+  "endpoint": {
+    "methodName": "GetTestDataAsync",
+    "httpVerb": "GET",
+    "route": "data",
+    "bindingSource": "FromQuery"
+  },
+
+  "requestDto": {
+    "namespace": "Benchmark.Api.DTOs.Tests",
+    "name": "GetTestDataRequestDto",
+    "properties": [
+      {
+        "name": "Name",
+        "type": "string?",
+        "attributes": [
+          "MaxLength(100)"
+        ]
+      },
+      {
+        "name": "Count",
+        "type": "int",
+        "attributes": [
+          "Range(1, 50)"
+        ]
+      }
+    ]
+  },
+
+  "mediatorRequest": {
+    "namespace": "Benchmark.Application.Tests.GetTestData",
+    "typeName": "GetTestDataQuery",
+    "optionsTypeName": "GetTestDataQueryOptions"
+  },
+
+  "response": {
+    "namespace": "Benchmark.Application.Tests.GetTestData",
+    "typeName": "GetTestDataResult",
+    "httpStatus": 200
+  },
+
+  "mapping": {
+    "source": "GetTestDataRequestDto",
+    "destination": "GetTestDataQueryOptions",
+    "mode": "AutoMapper"
+  }
+}
