@@ -9,3 +9,4 @@
 /Users/adriangabrielchiper/Projects/portfolio-analytics-performance-lab/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain/obj/Debug/net10.0/refint/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain.dll
 /Users/adriangabrielchiper/Projects/portfolio-analytics-performance-lab/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain/obj/Debug/net10.0/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain.pdb
 /Users/adriangabrielchiper/Projects/portfolio-analytics-performance-lab/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain/obj/Debug/net10.0/ref/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain.dll
+/Users/adriangabrielchiper/Projects/portfolio-analytics-performance-lab/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain/obj/Debug/net10.0/PortfolioAnalyticsPerformanceLab.Benchmarking.Domain.sourcelink.json

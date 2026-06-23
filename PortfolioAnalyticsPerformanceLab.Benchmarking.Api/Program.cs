@@ -8,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.ConfigureCors();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
-// builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 builder.Services.ConfigureAutomapper();
 builder.Services.AddMediatR(cfg =>
 {

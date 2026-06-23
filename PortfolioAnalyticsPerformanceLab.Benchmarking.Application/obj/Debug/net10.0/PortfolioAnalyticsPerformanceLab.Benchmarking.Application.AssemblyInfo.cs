@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortfolioAnalyticsPerformanceLab.Benchmarking.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4638a2155d3beee3cc31f177175503614b18ce15")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortfolioAnalyticsPerformanceLab.Benchmarking.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortfolioAnalyticsPerformanceLab.Benchmarking.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

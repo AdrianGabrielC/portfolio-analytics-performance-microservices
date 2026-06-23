@@ -1,0 +1,68 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.o
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+project.assets.json
+project.packagespec.json
+project.nuget.cache
+*.dgspec.json
+.nuget/
+
+# IDE - Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+*.user
+*.userprefs
+*.suo
+.idea/
+
+# IDE - Rider/ReSharper
+.rider/
+.resharper/
+*.resharper.user
+
+# Test Results
+TestResults/
+*.trx
+
+# Output
+artifacts/
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+

@@ -5,7 +5,7 @@ namespace PortfolioAnalyticsPerformanceLab.Benchmarking.Infrastructure.Repositor
 
 public class RepositoryManager: IRepositoryManager
 {
-    private BenchmarkingDbContext _repositoryContext;
+    private readonly BenchmarkingDbContext _repositoryContext;
     
     private Lazy<IBenchmarkRunsRepository> _benchmarkingRepository;
     private Lazy<IOutboxMessagesRepository> _outboxMessagesRepository;
