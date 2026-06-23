@@ -1,0 +1,6 @@
+@PortfolioAnalyticsPerformanceLab.Benchmarking.Api_HostAddress = http://localhost:5209
+
+GET {{PortfolioAnalyticsPerformanceLab.Benchmarking.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
